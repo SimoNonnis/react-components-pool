@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <EmptyStar /> icon should render EmptyStar icon correctly with default props 1`] = `
+<svg
+  className="emptyStarIcon"
+  height={40}
+  viewBox="0 0 100 100"
+  width={40}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    EmptyStar Icon
+  </title>
+  <path
+    className="emptyStarIconPath"
+    d="M80.9,97.56,50,75.94,19.11,97.55l11-36.06L0,38.76l37.71-.66L50,2.44,62.3,38.1l37.7.66L69.91,61.49ZM50,71.24,74,88,65.44,60,88.77,42.42l-29.24-.51L50,14.26,40.47,41.91l-29.23.51L34.58,60,26.05,88Z"
+    fill="currentColor"
+  />
+</svg>
+`;
+
+exports[`Test <EmptyStar /> icon should render EmptyStar icon correctly with props 1`] = `
+<svg
+  className="emptyStarIcon"
+  height={30}
+  viewBox="0 0 100 100"
+  width={30}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    EmptyStar Icon
+  </title>
+  <path
+    className="emptyStarIconPath"
+    d="M80.9,97.56,50,75.94,19.11,97.55l11-36.06L0,38.76l37.71-.66L50,2.44,62.3,38.1l37.7.66L69.91,61.49ZM50,71.24,74,88,65.44,60,88.77,42.42l-29.24-.51L50,14.26,40.47,41.91l-29.23.51L34.58,60,26.05,88Z"
+    fill="#8A2BE2"
+  />
+</svg>
+`;

@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Button /> should render Button correctly with custom rounded corners 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={50}
+  size=""
+  styleType=""
+  type="submit"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render Button correctly with props size "large" and type "highlight" 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size="large"
+  styleType=""
+  type="highlight"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render Button correctly with props size "small" and "disabled" true 1`] = `
+<Btn
+  className=""
+  disabled={true}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size="small"
+  styleType=""
+  type="submit"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render Button correctly with props size "small" and "disabled" true 2`] = `
+<Btn
+  className=""
+  disabled={true}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size="small"
+  styleType=""
+  type="submit"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render Button correctly with props styleType="secondary and type="button" 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size=""
+  styleType="secondary"
+  type="button"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render Button correctly with props type="button" 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size=""
+  styleType=""
+  type="button"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render Button correctly with props type="secondary 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size=""
+  styleType=""
+  type="secondary"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render Button correctly with props type="submit" 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size=""
+  styleType=""
+  type="submit"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render Button correctly with required props 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size=""
+  styleType=""
+  type="submit"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render correctly a Button of type "highlight" with 100% width 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={true}
+  onClick={[MockFunction]}
+  rounded={3}
+  size=""
+  styleType=""
+  type="outline"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render correctly a Button of type "white" 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size=""
+  styleType=""
+  type="white"
+>
+  Click me
+</Btn>
+`;
+
+exports[`Test <Button /> should render correctly a Button with loading true 1`] = `
+<Btn
+  className=""
+  disabled={false}
+  fullWidth={false}
+  onClick={[MockFunction]}
+  rounded={3}
+  size=""
+  styleType=""
+  type="submit"
+>
+  <Loader
+    size=""
+  />
+</Btn>
+`;

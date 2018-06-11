@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <InputFeedback /> should render InputFeedback correctly with custom props 1`] = `
+<styled.div
+  className="className"
+>
+  Error message
+</styled.div>
+`;
+
+exports[`Test <InputFeedback /> should render InputFeedback correctly with default props 1`] = `
+<styled.div
+  className={null}
+/>
+`;

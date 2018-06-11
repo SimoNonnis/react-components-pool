@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ScaleIcon /> icon should render ScaleIcon icon correctly with default props 1`] = `
+<svg
+  className="scaleIcon"
+  height={40}
+  viewBox="0 0 55 47"
+  width={40}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Scale Icon
+  </title>
+  <g
+    stroke="#1D3141"
+    transform="translate(-601.000000, -584.000000)"
+  >
+    <g
+      transform="translate(460.000000, 230.000000)"
+    >
+      <g
+        transform="translate(88.000000, 312.000000)"
+      >
+        <g
+          transform="translate(54.132550, 43.000000)"
+        >
+          <path
+            d="M36.4602897,21.0501767 C36.4602897,25.595662 40.1116722,29.280506 44.6158808,29.280506 C49.1200894,29.280506 52.7714719,25.595662 52.7714719,21.0501767 L36.4602897,21.0501767 Z"
+            fill="transparent"
+            strokeWidth="2"
+          />
+          <polyline
+            fill="transparent"
+            opacity="0.5"
+            points="38.3153415 20.0450863 44.6158808 3.62301716 50.8379703 19.8436147"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+          />
+          <path
+            d="M0,21.0501767 C0,25.595662 3.65138251,29.280506 8.15559111,29.280506 C12.6597997,29.280506 16.3111822,25.595662 16.3111822,21.0501767 L0,21.0501767 Z"
+            fill="transparent"
+            strokeWidth="2"
+          />
+          <polyline
+            fill="transparent"
+            opacity="0.5"
+            points="1.85505185 20.0450863 8.15559111 3.62301716 14.3776806 19.8436147"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+          />
+          <path
+            d="M5.75688784,0.992559524 L47.9740654,0.992559524"
+            strokeLinecap="round"
+            strokeWidth="2"
+          />
+          <path
+            d="M25.9059953,0.951902784 L25.9059953,41.0677367"
+            strokeLinecap="round"
+            strokeWidth="2"
+          />
+          <rect
+            fill="transparent"
+            height="19.9598214"
+            rx="1.64870327"
+            strokeWidth="1.5"
+            transform="translate(26.276704, 43.184507) rotate(-90.000000) translate(-26.276704, -43.184507) "
+            width="3.29740654"
+            x="24.6280007"
+            y="33.2045962"
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`Test <ScaleIcon /> icon should render ScaleIcon icon correctly with props 1`] = `
+<svg
+  className="pof"
+  height={30}
+  viewBox="0 0 55 47"
+  width={30}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Scale Icon
+  </title>
+  <g
+    stroke="#2c4c66"
+    transform="translate(-601.000000, -584.000000)"
+  >
+    <g
+      transform="translate(460.000000, 230.000000)"
+    >
+      <g
+        transform="translate(88.000000, 312.000000)"
+      >
+        <g
+          transform="translate(54.132550, 43.000000)"
+        >
+          <path
+            d="M36.4602897,21.0501767 C36.4602897,25.595662 40.1116722,29.280506 44.6158808,29.280506 C49.1200894,29.280506 52.7714719,25.595662 52.7714719,21.0501767 L36.4602897,21.0501767 Z"
+            fill="#ececec"
+            strokeWidth="2"
+          />
+          <polyline
+            fill="#ececec"
+            opacity="0.5"
+            points="38.3153415 20.0450863 44.6158808 3.62301716 50.8379703 19.8436147"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+          />
+          <path
+            d="M0,21.0501767 C0,25.595662 3.65138251,29.280506 8.15559111,29.280506 C12.6597997,29.280506 16.3111822,25.595662 16.3111822,21.0501767 L0,21.0501767 Z"
+            fill="#ececec"
+            strokeWidth="2"
+          />
+          <polyline
+            fill="#ececec"
+            opacity="0.5"
+            points="1.85505185 20.0450863 8.15559111 3.62301716 14.3776806 19.8436147"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+          />
+          <path
+            d="M5.75688784,0.992559524 L47.9740654,0.992559524"
+            strokeLinecap="round"
+            strokeWidth="2"
+          />
+          <path
+            d="M25.9059953,0.951902784 L25.9059953,41.0677367"
+            strokeLinecap="round"
+            strokeWidth="2"
+          />
+          <rect
+            fill="#ececec"
+            height="19.9598214"
+            rx="1.64870327"
+            strokeWidth="1.5"
+            transform="translate(26.276704, 43.184507) rotate(-90.000000) translate(-26.276704, -43.184507) "
+            width="3.29740654"
+            x="24.6280007"
+            y="33.2045962"
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+`;

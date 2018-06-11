@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Star /> icon should render Star icon correctly with default props 1`] = `
+<svg
+  className="starIcon"
+  height={40}
+  viewBox="0 0 100 100"
+  width={40}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Star Icon
+  </title>
+  <polygon
+    className="starIconPath"
+    fill="currentColor"
+    points="100 38.76 62.29 38.11 50 2.45 37.7 38.11 0 38.76 30.11 61.48 19.1 97.54 50 75.94 80.89 97.55 69.88 61.48 100 38.76"
+  />
+</svg>
+`;
+
+exports[`Test <Star /> icon should render Star icon correctly with props 1`] = `
+<svg
+  className="starIcon"
+  height={30}
+  viewBox="0 0 100 100"
+  width={30}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Star Icon
+  </title>
+  <polygon
+    className="starIconPath"
+    fill="#8A2BE2"
+    points="100 38.76 62.29 38.11 50 2.45 37.7 38.11 0 38.76 30.11 61.48 19.1 97.54 50 75.94 80.89 97.55 69.88 61.48 100 38.76"
+  />
+</svg>
+`;

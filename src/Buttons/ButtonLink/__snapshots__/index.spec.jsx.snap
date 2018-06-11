@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ButtonLink /> should render ButtonLink correctly with custom rounded corners 1`] = `
+<BtnLink
+  className=""
+  external={false}
+  fullWidth={false}
+  rounded={50}
+  size=""
+  styleType=""
+  to="/internal"
+  type="submit"
+>
+  Click me
+</BtnLink>
+`;
+
+exports[`Test <ButtonLink /> should render ButtonLink correctly with props size "large" and type "highlight" 1`] = `
+<BtnLink
+  className=""
+  external={false}
+  fullWidth={false}
+  rounded={3}
+  size="large"
+  styleType=""
+  to="/internal"
+  type="highlight"
+>
+  Click me
+</BtnLink>
+`;
+
+exports[`Test <ButtonLink /> should render ButtonLink correctly with props size "small"  true 1`] = `
+<BtnLink
+  className=""
+  external={false}
+  fullWidth={false}
+  rounded={3}
+  size="small"
+  styleType=""
+  to="/internal"
+  type="submit"
+>
+  Click me
+</BtnLink>
+`;
+
+exports[`Test <ButtonLink /> should render ButtonLink correctly with props styleType="secondary and type="button" 1`] = `
+<BtnLink
+  className=""
+  external={false}
+  fullWidth={false}
+  rounded={3}
+  size=""
+  styleType="secondary"
+  to="/internal"
+  type="button"
+>
+  Click me
+</BtnLink>
+`;
+
+exports[`Test <ButtonLink /> should render ButtonLink correctly with props type="secondary 1`] = `
+<BtnLink
+  className=""
+  external={false}
+  fullWidth={false}
+  rounded={3}
+  size=""
+  styleType=""
+  to="/internal"
+  type="secondary"
+>
+  Click me
+</BtnLink>
+`;
+
+exports[`Test <ButtonLink /> should render ButtonLink correctly with required props 1`] = `
+<BtnLink
+  className=""
+  external={false}
+  fullWidth={false}
+  rounded={3}
+  size=""
+  styleType=""
+  to="/internal"
+  type="submit"
+>
+  Click me
+</BtnLink>
+`;
+
+exports[`Test <ButtonLink /> should render correctly a ButtonLink of type "highlight" with 100% width 1`] = `
+<BtnLink
+  className=""
+  external={false}
+  fullWidth={true}
+  rounded={3}
+  size=""
+  styleType=""
+  to="/internal"
+  type="outline"
+>
+  Click me
+</BtnLink>
+`;
+
+exports[`Test <ButtonLink /> should render correctly a ButtonLink of type "white" 1`] = `
+<BtnLink
+  className=""
+  external={false}
+  fullWidth={false}
+  rounded={3}
+  size=""
+  styleType=""
+  to="/internal"
+  type="white"
+>
+  Click me
+</BtnLink>
+`;
+
+exports[`Test <ButtonLink /> should render correctly a ButtonLink with external 1`] = `
+<BtnLink
+  className=""
+  external={true}
+  fullWidth={false}
+  rounded={3}
+  size=""
+  styleType=""
+  to="www.test.com"
+  type="submit"
+>
+  Click me
+</BtnLink>
+`;
+
+exports[`Test <ButtonLink /> should render correctly a ButtonLink with styleType="secondary and type="button" 1`] = `
+<BtnLink
+  className=""
+  external={true}
+  fullWidth={false}
+  rounded={3}
+  size=""
+  styleType="highlight"
+  to="www.test.com"
+  type="button"
+>
+  Click me
+</BtnLink>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Circle /> should render Circle correctly with no status 1`] = `
+.c0 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Test <Circle /> should render Circle correctly with status="awaiting" 1`] = `
+.c0 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ffad2f;
+  -webkit-animation: cmBdEO 1.3s infinite backwards ease-out;
+  animation: cmBdEO 1.3s infinite backwards ease-out;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Test <Circle /> should render Circle correctly with status="ready" 1`] = `
+.c0 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #35A856;
+}
+
+<div
+  className="c0"
+/>
+`;

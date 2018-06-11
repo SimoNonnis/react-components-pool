@@ -1,0 +1,5 @@
+ProofOfFunds example:
+
+```js
+<ProofOfFundsIcon/>
+```

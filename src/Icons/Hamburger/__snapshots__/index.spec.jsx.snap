@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Hamburger /> icon should render Hamburger icon correctly with default props 1`] = `
+<svg
+  className="Hamburger"
+  height={32}
+  viewBox="0 0 32 32"
+  width={32}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Hamburger Icon
+  </title>
+  <path
+    className="HamburgerPath"
+    d="M4,10H28a2,2,0,0,0,0-4H4a2,2,0,0,0,0,4Zm24,4H4a2,2,0,0,0,0,4H28a2,2,0,0,0,0-4Zm0,8H4a2,2,0,0,0,0,4H28a2,2,0,0,0,0-4Z"
+    fill="#fff"
+  />
+</svg>
+`;
+
+exports[`Test <Hamburger /> icon should render Hamburger icon correctly with props 1`] = `
+<svg
+  className="pof"
+  height={30}
+  viewBox="0 0 32 32"
+  width={30}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Hamburger Icon
+  </title>
+  <path
+    className="HamburgerPath"
+    d="M4,10H28a2,2,0,0,0,0-4H4a2,2,0,0,0,0,4Zm24,4H4a2,2,0,0,0,0,4H28a2,2,0,0,0,0-4Zm0,8H4a2,2,0,0,0,0,4H28a2,2,0,0,0,0-4Z"
+    fill="#a4a1a1"
+  />
+</svg>
+`;

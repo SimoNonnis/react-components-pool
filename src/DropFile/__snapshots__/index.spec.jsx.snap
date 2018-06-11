@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <DropFile /> should render DropFile correctly with accept prop 1`] = `
+<div>
+  <Styled(t)
+    accept="application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with acceptText prop 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+      <styled.div>
+        <Styled(styled.p)>
+          Only images are allowed
+        </Styled(styled.p)>
+      </styled.div>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with buttonLabel prop 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Test buttonLabel
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with buttonLabel prop 2`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        <span>
+          buttonLabel component
+        </span>
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with className prop 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className="testClass"
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with default props 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with dropAreaLabel prop 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Test Label
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with dropAreaLabel prop as a function 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        <span>
+          dropAreaLabel component
+        </span>
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with errorMessage prop 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+      <styled.div>
+        <Styled(styled.p)
+          error={true}
+        >
+          <Styled(Attention)
+            height={15}
+            width={15}
+          />
+          Pdf are not allowed
+        </Styled(styled.p)>
+      </styled.div>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with multiple prop 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={true}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with onDrop prop 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[MockFunction]}
+    onDropAccepted={[Function]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with onDropAccepted prop 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[MockFunction]}
+    onDropRejected={[Function]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;
+
+exports[`Test <DropFile /> should render DropFile correctly with onDropRejected prop 1`] = `
+<div>
+  <Styled(t)
+    accept="image/png, image/jpeg, application/pdf"
+    activeStyle={
+      Object {
+        "borderColor": "#0099cf",
+      }
+    }
+    className={null}
+    multiple={false}
+    onDrop={[Function]}
+    onDropAccepted={[Function]}
+    onDropRejected={[MockFunction]}
+  >
+    <styled.div>
+      <Styled(UploadIcon) />
+      <Styled(styled.p)>
+        Drop here to upload or
+      </Styled(styled.p)>
+      <Styled(Button)
+        onClick={[Function]}
+        styleType="secondary"
+      >
+        Browse files
+      </Styled(Button)>
+    </styled.div>
+  </Styled(t)>
+</div>
+`;

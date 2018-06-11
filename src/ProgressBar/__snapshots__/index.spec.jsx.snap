@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ProgressBar /> should render Progress bar with max value 1`] = `
+<div
+  className=""
+>
+  <Container
+    color="mediumBlue"
+  >
+    <Bar
+      color="mediumBlue"
+      style={
+        Object {
+          "width": "66.66666666666666%",
+        }
+      }
+    />
+  </Container>
+</div>
+`;
+
+exports[`Test <ProgressBar /> should render Progress bar with max value and showRawValue prop 1`] = `
+<div
+  className=""
+>
+  <Container
+    color="mediumBlue"
+  >
+    <Bar
+      color="mediumBlue"
+      style={
+        Object {
+          "width": "66.66666666666666%",
+        }
+      }
+    >
+      2
+    </Bar>
+  </Container>
+</div>
+`;
+
+exports[`Test <ProgressBar /> should render Progress bar with showValue prop 1`] = `
+<div
+  className=""
+>
+  <Container
+    color="mediumBlue"
+  >
+    <Bar
+      color="mediumBlue"
+      style={
+        Object {
+          "width": "90%",
+        }
+      }
+    >
+      90%
+    </Bar>
+  </Container>
+</div>
+`;
+
+exports[`Test <ProgressBar /> should render ProgressBar correctly passing only required props 1`] = `
+<div
+  className=""
+>
+  <Container
+    color="mediumBlue"
+  >
+    <Bar
+      color="mediumBlue"
+      style={
+        Object {
+          "width": "90%",
+        }
+      }
+    />
+  </Container>
+</div>
+`;
+
+exports[`Test <ProgressBar /> should render ProgressBar correctly with color prop 1`] = `
+<div
+  className=""
+>
+  <Container
+    color="green"
+  >
+    <Bar
+      color="green"
+      style={
+        Object {
+          "width": "90%",
+        }
+      }
+    />
+  </Container>
+</div>
+`;

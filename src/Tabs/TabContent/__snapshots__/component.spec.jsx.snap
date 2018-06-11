@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TabContent /> should find <TabContent /> component 1`] = `
+<styled.div>
+  The 1st tab content is here
+</styled.div>
+`;

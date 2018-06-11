@@ -1,0 +1,432 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Container /> should render Container with theme props 1`] = `
+.c0 {
+  background-color: #ffffff;
+  border-radius: 4px;
+  max-width: 100%;
+  padding: 28px 20px;
+  position: relative;
+}
+
+@media (min-width:504px) {
+  .c0 {
+    max-width: 700px;
+  }
+}
+
+@media (min-width:1050px) {
+  .c0 {
+    padding: 30px;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Test <StyledModal /> should render StyledModal with tall prop 1`] = `
+.c0 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: rgba(29,49,65,0.85);
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 1.2rem;
+  z-index: 1031;
+}
+
+<Modal
+  ariaHideApp={true}
+  bodyOpenClassName="ReactModal__Body--open"
+  className="c0"
+  closeTimeoutMS={0}
+  isOpen={false}
+  parentSelector={[Function]}
+  portalClassName="ReactModalPortal"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={true}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+  tall={true}
+  theme={
+    Object {
+      "base": Object {
+        "fontFamily": "\\"proxima-nova\\", \\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.45,
+      },
+      "breakpoints": Array [
+        504,
+        671,
+        867,
+        1050,
+        1200,
+      ],
+      "color": Object {
+        "black": "#000000",
+        "coral": "#F4364C",
+        "darkGrey": "#77838d",
+        "green": "#35A856",
+        "lightBlue1": "#daf3ff",
+        "lightBlue2": "#bfe8f8",
+        "lightGreen": "#B4E2C2",
+        "lightGrey1": "#d6d6d6",
+        "lightGrey2": "#e6e6e6",
+        "lightGrey3": "#f6f6f6",
+        "lightGrey4": "#c8cccf",
+        "lightOrange": "#ffeaca",
+        "lightPink": "#f8d7e0",
+        "mediumBlue": "#0099cf",
+        "mediumGrey": "#979797",
+        "orange": "#ffad2f",
+        "pink": "#e46185",
+        "red": "#f80000",
+        "red15": "#fedede",
+        "stoneGrey": "#a6adb4",
+        "teal": "#06A693",
+        "veryDarkBlue": "#1D3141",
+        "veryDarkBlue20": "#C8CCCF",
+        "veryDarkBlue40": "#9DA5AB",
+        "veryDarkBlue60": "#717D87",
+        "veryDarkBlue7": "#EEF0F3",
+        "veryDarkBlue80": "#4A5A67",
+        "white": "#ffffff",
+      },
+      "maxWidth": "1200px",
+      "space": Array [
+        5,
+        10,
+        15,
+        20,
+        30,
+      ],
+      "spacing": Object {
+        "lg": "28px",
+        "md": "18px",
+        "sm": "10px",
+        "xl": "36px",
+        "xs": "5px",
+      },
+      "typography": Object {
+        "caption": Object {
+          "desktop": Object {
+            "fontSize": "1rem",
+            "lineHeight": "1.571rem",
+          },
+          "phone": Object {
+            "fontSize": "1rem",
+            "fontWeight": 400,
+            "lineHeight": "1.571rem",
+            "margin": "0 0 10px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1rem",
+            "lineHeight": "1.571rem",
+          },
+        },
+        "h1": Object {
+          "desktop": Object {
+            "fontSize": "2.286rem",
+            "lineHeight": "2.571rem",
+          },
+          "phone": Object {
+            "fontSize": "1.714rem",
+            "fontWeight": 600,
+            "lineHeight": "2rem",
+            "margin": "0 0 36px 0",
+          },
+          "tablet": Object {
+            "fontSize": "2rem",
+            "lineHeight": "2.429rem",
+          },
+        },
+        "h2": Object {
+          "desktop": Object {
+            "fontSize": "1.571rem",
+            "lineHeight": "1.857rem",
+          },
+          "phone": Object {
+            "fontSize": "1.429rem",
+            "fontWeight": 600,
+            "lineHeight": "1.714rem",
+            "margin": "0 0 18px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1.429rem",
+            "lineHeight": "1.714rem",
+          },
+        },
+        "h3": Object {
+          "desktop": Object {
+            "fontSize": "1.143rem",
+            "lineHeight": "1.714rem",
+          },
+          "phone": Object {
+            "fontSize": "1.143rem",
+            "fontWeight": 700,
+            "lineHeight": "1.714rem",
+            "margin": "0 0 10px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1.143rem",
+            "lineHeight": "1.714rem",
+          },
+        },
+        "intro": Object {
+          "desktop": Object {
+            "fontSize": "1.357rem",
+            "lineHeight": "1.929rem",
+          },
+          "phone": Object {
+            "fontSize": "1.214rem",
+            "fontWeight": 300,
+            "lineHeight": "1.714rem",
+            "margin": "0 0 36px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1.214rem",
+            "lineHeight": "1.714rem",
+          },
+        },
+        "p": Object {
+          "desktop": Object {
+            "fontSize": "1.143rem",
+            "lineHeight": "1.714rem",
+          },
+          "phone": Object {
+            "fontSize": "1.143rem",
+            "fontWeight": 400,
+            "lineHeight": "1.714rem",
+            "margin": "0 0 10px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1.143rem",
+            "lineHeight": "1.714rem",
+          },
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Test <StyledModal /> should render StyledModal with theme props 1`] = `
+.c0 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: rgba(29,49,65,0.85);
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 1.2rem;
+  z-index: 1031;
+}
+
+<Modal
+  ariaHideApp={true}
+  bodyOpenClassName="ReactModal__Body--open"
+  className="c0"
+  closeTimeoutMS={0}
+  isOpen={false}
+  parentSelector={[Function]}
+  portalClassName="ReactModalPortal"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={true}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+  theme={
+    Object {
+      "base": Object {
+        "fontFamily": "\\"proxima-nova\\", \\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.45,
+      },
+      "breakpoints": Array [
+        504,
+        671,
+        867,
+        1050,
+        1200,
+      ],
+      "color": Object {
+        "black": "#000000",
+        "coral": "#F4364C",
+        "darkGrey": "#77838d",
+        "green": "#35A856",
+        "lightBlue1": "#daf3ff",
+        "lightBlue2": "#bfe8f8",
+        "lightGreen": "#B4E2C2",
+        "lightGrey1": "#d6d6d6",
+        "lightGrey2": "#e6e6e6",
+        "lightGrey3": "#f6f6f6",
+        "lightGrey4": "#c8cccf",
+        "lightOrange": "#ffeaca",
+        "lightPink": "#f8d7e0",
+        "mediumBlue": "#0099cf",
+        "mediumGrey": "#979797",
+        "orange": "#ffad2f",
+        "pink": "#e46185",
+        "red": "#f80000",
+        "red15": "#fedede",
+        "stoneGrey": "#a6adb4",
+        "teal": "#06A693",
+        "veryDarkBlue": "#1D3141",
+        "veryDarkBlue20": "#C8CCCF",
+        "veryDarkBlue40": "#9DA5AB",
+        "veryDarkBlue60": "#717D87",
+        "veryDarkBlue7": "#EEF0F3",
+        "veryDarkBlue80": "#4A5A67",
+        "white": "#ffffff",
+      },
+      "maxWidth": "1200px",
+      "space": Array [
+        5,
+        10,
+        15,
+        20,
+        30,
+      ],
+      "spacing": Object {
+        "lg": "28px",
+        "md": "18px",
+        "sm": "10px",
+        "xl": "36px",
+        "xs": "5px",
+      },
+      "typography": Object {
+        "caption": Object {
+          "desktop": Object {
+            "fontSize": "1rem",
+            "lineHeight": "1.571rem",
+          },
+          "phone": Object {
+            "fontSize": "1rem",
+            "fontWeight": 400,
+            "lineHeight": "1.571rem",
+            "margin": "0 0 10px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1rem",
+            "lineHeight": "1.571rem",
+          },
+        },
+        "h1": Object {
+          "desktop": Object {
+            "fontSize": "2.286rem",
+            "lineHeight": "2.571rem",
+          },
+          "phone": Object {
+            "fontSize": "1.714rem",
+            "fontWeight": 600,
+            "lineHeight": "2rem",
+            "margin": "0 0 36px 0",
+          },
+          "tablet": Object {
+            "fontSize": "2rem",
+            "lineHeight": "2.429rem",
+          },
+        },
+        "h2": Object {
+          "desktop": Object {
+            "fontSize": "1.571rem",
+            "lineHeight": "1.857rem",
+          },
+          "phone": Object {
+            "fontSize": "1.429rem",
+            "fontWeight": 600,
+            "lineHeight": "1.714rem",
+            "margin": "0 0 18px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1.429rem",
+            "lineHeight": "1.714rem",
+          },
+        },
+        "h3": Object {
+          "desktop": Object {
+            "fontSize": "1.143rem",
+            "lineHeight": "1.714rem",
+          },
+          "phone": Object {
+            "fontSize": "1.143rem",
+            "fontWeight": 700,
+            "lineHeight": "1.714rem",
+            "margin": "0 0 10px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1.143rem",
+            "lineHeight": "1.714rem",
+          },
+        },
+        "intro": Object {
+          "desktop": Object {
+            "fontSize": "1.357rem",
+            "lineHeight": "1.929rem",
+          },
+          "phone": Object {
+            "fontSize": "1.214rem",
+            "fontWeight": 300,
+            "lineHeight": "1.714rem",
+            "margin": "0 0 36px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1.214rem",
+            "lineHeight": "1.714rem",
+          },
+        },
+        "p": Object {
+          "desktop": Object {
+            "fontSize": "1.143rem",
+            "lineHeight": "1.714rem",
+          },
+          "phone": Object {
+            "fontSize": "1.143rem",
+            "fontWeight": 400,
+            "lineHeight": "1.714rem",
+            "margin": "0 0 10px 0",
+          },
+          "tablet": Object {
+            "fontSize": "1.143rem",
+            "lineHeight": "1.714rem",
+          },
+        },
+      },
+    }
+  }
+/>
+`;

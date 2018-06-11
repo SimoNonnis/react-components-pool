@@ -1,0 +1,912 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <RadioBox /> should render RadioBox correctly component with label as a styled component 1`] = `
+<Container
+  className={null}
+>
+  <Radio
+    checked={false}
+    disabled={false}
+    id="yes"
+    name="choice"
+    theme={
+      Object {
+        "base": Object {
+          "fontFamily": "\\"proxima-nova\\", \\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": 400,
+          "lineHeight": 1.45,
+        },
+        "breakpoints": Array [
+          504,
+          671,
+          867,
+          1050,
+          1200,
+        ],
+        "color": Object {
+          "black": "#000000",
+          "coral": "#F4364C",
+          "darkGrey": "#77838d",
+          "green": "#35A856",
+          "lightBlue1": "#daf3ff",
+          "lightBlue2": "#bfe8f8",
+          "lightGreen": "#B4E2C2",
+          "lightGrey1": "#d6d6d6",
+          "lightGrey2": "#e6e6e6",
+          "lightGrey3": "#f6f6f6",
+          "lightGrey4": "#c8cccf",
+          "lightOrange": "#ffeaca",
+          "lightPink": "#f8d7e0",
+          "mediumBlue": "#0099cf",
+          "mediumGrey": "#979797",
+          "orange": "#ffad2f",
+          "pink": "#e46185",
+          "red": "#f80000",
+          "red15": "#fedede",
+          "stoneGrey": "#a6adb4",
+          "teal": "#06A693",
+          "veryDarkBlue": "#1D3141",
+          "veryDarkBlue20": "#C8CCCF",
+          "veryDarkBlue40": "#9DA5AB",
+          "veryDarkBlue60": "#717D87",
+          "veryDarkBlue7": "#EEF0F3",
+          "veryDarkBlue80": "#4A5A67",
+          "white": "#ffffff",
+        },
+        "maxWidth": "1200px",
+        "space": Array [
+          5,
+          10,
+          15,
+          20,
+          30,
+        ],
+        "spacing": Object {
+          "lg": "28px",
+          "md": "18px",
+          "sm": "10px",
+          "xl": "36px",
+          "xs": "5px",
+        },
+        "typography": Object {
+          "caption": Object {
+            "desktop": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "lineHeight": "1.571rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+          },
+          "h1": Object {
+            "desktop": Object {
+              "fontSize": "2.286rem",
+              "lineHeight": "2.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1.714rem",
+              "fontWeight": 600,
+              "lineHeight": "2rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "2rem",
+              "lineHeight": "2.429rem",
+            },
+          },
+          "h2": Object {
+            "desktop": Object {
+              "fontSize": "1.571rem",
+              "lineHeight": "1.857rem",
+            },
+            "phone": Object {
+              "fontSize": "1.429rem",
+              "fontWeight": 600,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 18px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.429rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "h3": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 700,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "intro": Object {
+            "desktop": Object {
+              "fontSize": "1.357rem",
+              "lineHeight": "1.929rem",
+            },
+            "phone": Object {
+              "fontSize": "1.214rem",
+              "fontWeight": 300,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.214rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "p": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 400,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+        },
+      }
+    }
+    type="radio"
+  />
+  <Label
+    disabled={false}
+    error={true}
+    htmlFor="yes"
+  >
+    <styled.div>
+      Label
+    </styled.div>
+  </Label>
+</Container>
+`;
+
+exports[`Test <RadioBox /> should render RadioBox correctly component with label containing html tags 1`] = `
+<Container
+  className={null}
+>
+  <Radio
+    checked={false}
+    disabled={false}
+    id="yes"
+    name="choice"
+    theme={
+      Object {
+        "base": Object {
+          "fontFamily": "\\"proxima-nova\\", \\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": 400,
+          "lineHeight": 1.45,
+        },
+        "breakpoints": Array [
+          504,
+          671,
+          867,
+          1050,
+          1200,
+        ],
+        "color": Object {
+          "black": "#000000",
+          "coral": "#F4364C",
+          "darkGrey": "#77838d",
+          "green": "#35A856",
+          "lightBlue1": "#daf3ff",
+          "lightBlue2": "#bfe8f8",
+          "lightGreen": "#B4E2C2",
+          "lightGrey1": "#d6d6d6",
+          "lightGrey2": "#e6e6e6",
+          "lightGrey3": "#f6f6f6",
+          "lightGrey4": "#c8cccf",
+          "lightOrange": "#ffeaca",
+          "lightPink": "#f8d7e0",
+          "mediumBlue": "#0099cf",
+          "mediumGrey": "#979797",
+          "orange": "#ffad2f",
+          "pink": "#e46185",
+          "red": "#f80000",
+          "red15": "#fedede",
+          "stoneGrey": "#a6adb4",
+          "teal": "#06A693",
+          "veryDarkBlue": "#1D3141",
+          "veryDarkBlue20": "#C8CCCF",
+          "veryDarkBlue40": "#9DA5AB",
+          "veryDarkBlue60": "#717D87",
+          "veryDarkBlue7": "#EEF0F3",
+          "veryDarkBlue80": "#4A5A67",
+          "white": "#ffffff",
+        },
+        "maxWidth": "1200px",
+        "space": Array [
+          5,
+          10,
+          15,
+          20,
+          30,
+        ],
+        "spacing": Object {
+          "lg": "28px",
+          "md": "18px",
+          "sm": "10px",
+          "xl": "36px",
+          "xs": "5px",
+        },
+        "typography": Object {
+          "caption": Object {
+            "desktop": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "lineHeight": "1.571rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+          },
+          "h1": Object {
+            "desktop": Object {
+              "fontSize": "2.286rem",
+              "lineHeight": "2.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1.714rem",
+              "fontWeight": 600,
+              "lineHeight": "2rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "2rem",
+              "lineHeight": "2.429rem",
+            },
+          },
+          "h2": Object {
+            "desktop": Object {
+              "fontSize": "1.571rem",
+              "lineHeight": "1.857rem",
+            },
+            "phone": Object {
+              "fontSize": "1.429rem",
+              "fontWeight": 600,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 18px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.429rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "h3": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 700,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "intro": Object {
+            "desktop": Object {
+              "fontSize": "1.357rem",
+              "lineHeight": "1.929rem",
+            },
+            "phone": Object {
+              "fontSize": "1.214rem",
+              "fontWeight": 300,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.214rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "p": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 400,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+        },
+      }
+    }
+    type="radio"
+  />
+  <Label
+    disabled={false}
+    error={true}
+    htmlFor="yes"
+  >
+    <span>
+      Label
+    </span>
+  </Label>
+</Container>
+`;
+
+exports[`Test <RadioBox /> should render RadioBox correctly if checked true 1`] = `
+<Container
+  className={null}
+>
+  <Radio
+    checked={true}
+    disabled={false}
+    id="no"
+    name="cool"
+    theme={
+      Object {
+        "base": Object {
+          "fontFamily": "\\"proxima-nova\\", \\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": 400,
+          "lineHeight": 1.45,
+        },
+        "breakpoints": Array [
+          504,
+          671,
+          867,
+          1050,
+          1200,
+        ],
+        "color": Object {
+          "black": "#000000",
+          "coral": "#F4364C",
+          "darkGrey": "#77838d",
+          "green": "#35A856",
+          "lightBlue1": "#daf3ff",
+          "lightBlue2": "#bfe8f8",
+          "lightGreen": "#B4E2C2",
+          "lightGrey1": "#d6d6d6",
+          "lightGrey2": "#e6e6e6",
+          "lightGrey3": "#f6f6f6",
+          "lightGrey4": "#c8cccf",
+          "lightOrange": "#ffeaca",
+          "lightPink": "#f8d7e0",
+          "mediumBlue": "#0099cf",
+          "mediumGrey": "#979797",
+          "orange": "#ffad2f",
+          "pink": "#e46185",
+          "red": "#f80000",
+          "red15": "#fedede",
+          "stoneGrey": "#a6adb4",
+          "teal": "#06A693",
+          "veryDarkBlue": "#1D3141",
+          "veryDarkBlue20": "#C8CCCF",
+          "veryDarkBlue40": "#9DA5AB",
+          "veryDarkBlue60": "#717D87",
+          "veryDarkBlue7": "#EEF0F3",
+          "veryDarkBlue80": "#4A5A67",
+          "white": "#ffffff",
+        },
+        "maxWidth": "1200px",
+        "space": Array [
+          5,
+          10,
+          15,
+          20,
+          30,
+        ],
+        "spacing": Object {
+          "lg": "28px",
+          "md": "18px",
+          "sm": "10px",
+          "xl": "36px",
+          "xs": "5px",
+        },
+        "typography": Object {
+          "caption": Object {
+            "desktop": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "lineHeight": "1.571rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+          },
+          "h1": Object {
+            "desktop": Object {
+              "fontSize": "2.286rem",
+              "lineHeight": "2.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1.714rem",
+              "fontWeight": 600,
+              "lineHeight": "2rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "2rem",
+              "lineHeight": "2.429rem",
+            },
+          },
+          "h2": Object {
+            "desktop": Object {
+              "fontSize": "1.571rem",
+              "lineHeight": "1.857rem",
+            },
+            "phone": Object {
+              "fontSize": "1.429rem",
+              "fontWeight": 600,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 18px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.429rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "h3": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 700,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "intro": Object {
+            "desktop": Object {
+              "fontSize": "1.357rem",
+              "lineHeight": "1.929rem",
+            },
+            "phone": Object {
+              "fontSize": "1.214rem",
+              "fontWeight": 300,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.214rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "p": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 400,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+        },
+      }
+    }
+    type="radio"
+  />
+  <Label
+    disabled={false}
+    error={false}
+    htmlFor="no"
+  >
+    No
+  </Label>
+</Container>
+`;
+
+exports[`Test <RadioBox /> should render RadioBox correctly with label as a function 1`] = `
+<Container
+  className={null}
+>
+  <Radio
+    checked={false}
+    disabled={false}
+    id="yes"
+    name="choice"
+    theme={
+      Object {
+        "base": Object {
+          "fontFamily": "\\"proxima-nova\\", \\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": 400,
+          "lineHeight": 1.45,
+        },
+        "breakpoints": Array [
+          504,
+          671,
+          867,
+          1050,
+          1200,
+        ],
+        "color": Object {
+          "black": "#000000",
+          "coral": "#F4364C",
+          "darkGrey": "#77838d",
+          "green": "#35A856",
+          "lightBlue1": "#daf3ff",
+          "lightBlue2": "#bfe8f8",
+          "lightGreen": "#B4E2C2",
+          "lightGrey1": "#d6d6d6",
+          "lightGrey2": "#e6e6e6",
+          "lightGrey3": "#f6f6f6",
+          "lightGrey4": "#c8cccf",
+          "lightOrange": "#ffeaca",
+          "lightPink": "#f8d7e0",
+          "mediumBlue": "#0099cf",
+          "mediumGrey": "#979797",
+          "orange": "#ffad2f",
+          "pink": "#e46185",
+          "red": "#f80000",
+          "red15": "#fedede",
+          "stoneGrey": "#a6adb4",
+          "teal": "#06A693",
+          "veryDarkBlue": "#1D3141",
+          "veryDarkBlue20": "#C8CCCF",
+          "veryDarkBlue40": "#9DA5AB",
+          "veryDarkBlue60": "#717D87",
+          "veryDarkBlue7": "#EEF0F3",
+          "veryDarkBlue80": "#4A5A67",
+          "white": "#ffffff",
+        },
+        "maxWidth": "1200px",
+        "space": Array [
+          5,
+          10,
+          15,
+          20,
+          30,
+        ],
+        "spacing": Object {
+          "lg": "28px",
+          "md": "18px",
+          "sm": "10px",
+          "xl": "36px",
+          "xs": "5px",
+        },
+        "typography": Object {
+          "caption": Object {
+            "desktop": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "lineHeight": "1.571rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+          },
+          "h1": Object {
+            "desktop": Object {
+              "fontSize": "2.286rem",
+              "lineHeight": "2.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1.714rem",
+              "fontWeight": 600,
+              "lineHeight": "2rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "2rem",
+              "lineHeight": "2.429rem",
+            },
+          },
+          "h2": Object {
+            "desktop": Object {
+              "fontSize": "1.571rem",
+              "lineHeight": "1.857rem",
+            },
+            "phone": Object {
+              "fontSize": "1.429rem",
+              "fontWeight": 600,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 18px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.429rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "h3": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 700,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "intro": Object {
+            "desktop": Object {
+              "fontSize": "1.357rem",
+              "lineHeight": "1.929rem",
+            },
+            "phone": Object {
+              "fontSize": "1.214rem",
+              "fontWeight": 300,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.214rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "p": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 400,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+        },
+      }
+    }
+    type="radio"
+  />
+  <Label
+    disabled={false}
+    error={false}
+    htmlFor="yes"
+  >
+    <span>
+      Label component
+    </span>
+  </Label>
+</Container>
+`;
+
+exports[`Test <RadioBox /> should render RadioBox correctly with only required props 1`] = `
+<Container
+  className={null}
+>
+  <Radio
+    checked={false}
+    disabled={false}
+    id="ok"
+    name="cool"
+    theme={
+      Object {
+        "base": Object {
+          "fontFamily": "\\"proxima-nova\\", \\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+          "fontSize": "14px",
+          "fontWeight": 400,
+          "lineHeight": 1.45,
+        },
+        "breakpoints": Array [
+          504,
+          671,
+          867,
+          1050,
+          1200,
+        ],
+        "color": Object {
+          "black": "#000000",
+          "coral": "#F4364C",
+          "darkGrey": "#77838d",
+          "green": "#35A856",
+          "lightBlue1": "#daf3ff",
+          "lightBlue2": "#bfe8f8",
+          "lightGreen": "#B4E2C2",
+          "lightGrey1": "#d6d6d6",
+          "lightGrey2": "#e6e6e6",
+          "lightGrey3": "#f6f6f6",
+          "lightGrey4": "#c8cccf",
+          "lightOrange": "#ffeaca",
+          "lightPink": "#f8d7e0",
+          "mediumBlue": "#0099cf",
+          "mediumGrey": "#979797",
+          "orange": "#ffad2f",
+          "pink": "#e46185",
+          "red": "#f80000",
+          "red15": "#fedede",
+          "stoneGrey": "#a6adb4",
+          "teal": "#06A693",
+          "veryDarkBlue": "#1D3141",
+          "veryDarkBlue20": "#C8CCCF",
+          "veryDarkBlue40": "#9DA5AB",
+          "veryDarkBlue60": "#717D87",
+          "veryDarkBlue7": "#EEF0F3",
+          "veryDarkBlue80": "#4A5A67",
+          "white": "#ffffff",
+        },
+        "maxWidth": "1200px",
+        "space": Array [
+          5,
+          10,
+          15,
+          20,
+          30,
+        ],
+        "spacing": Object {
+          "lg": "28px",
+          "md": "18px",
+          "sm": "10px",
+          "xl": "36px",
+          "xs": "5px",
+        },
+        "typography": Object {
+          "caption": Object {
+            "desktop": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "lineHeight": "1.571rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1rem",
+              "lineHeight": "1.571rem",
+            },
+          },
+          "h1": Object {
+            "desktop": Object {
+              "fontSize": "2.286rem",
+              "lineHeight": "2.571rem",
+            },
+            "phone": Object {
+              "fontSize": "1.714rem",
+              "fontWeight": 600,
+              "lineHeight": "2rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "2rem",
+              "lineHeight": "2.429rem",
+            },
+          },
+          "h2": Object {
+            "desktop": Object {
+              "fontSize": "1.571rem",
+              "lineHeight": "1.857rem",
+            },
+            "phone": Object {
+              "fontSize": "1.429rem",
+              "fontWeight": 600,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 18px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.429rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "h3": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 700,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "intro": Object {
+            "desktop": Object {
+              "fontSize": "1.357rem",
+              "lineHeight": "1.929rem",
+            },
+            "phone": Object {
+              "fontSize": "1.214rem",
+              "fontWeight": 300,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 36px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.214rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+          "p": Object {
+            "desktop": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+            "phone": Object {
+              "fontSize": "1.143rem",
+              "fontWeight": 400,
+              "lineHeight": "1.714rem",
+              "margin": "0 0 10px 0",
+            },
+            "tablet": Object {
+              "fontSize": "1.143rem",
+              "lineHeight": "1.714rem",
+            },
+          },
+        },
+      }
+    }
+    type="radio"
+  />
+  <Label
+    disabled={false}
+    error={false}
+    htmlFor="ok"
+  >
+    Ok
+  </Label>
+</Container>
+`;

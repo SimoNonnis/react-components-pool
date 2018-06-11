@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ErrorStyled /> should render ErrorStyled with theme props 1`] = `
+.c0 {
+  color: #f80000;
+  font-size: 14px;
+  margin-top: 7px;
+  min-height: 17px;
+}
+
+<div
+  className="c0"
+/>
+`;

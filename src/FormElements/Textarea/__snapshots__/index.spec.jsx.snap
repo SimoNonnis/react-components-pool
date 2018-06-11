@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Textarea /> should render Textarea correctly if disabled 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={true}
+    error={false}
+    htmlFor="testcomment"
+    required={false}
+  >
+    Comment
+  </Label>
+  <styled.textarea
+    autoComplete="nope"
+    disabled={true}
+    error={false}
+    id="testcomment"
+    name={null}
+    rows={5}
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Textarea /> should render Textarea correctly passing rows value 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="testcomment"
+    required={false}
+  >
+    Comment
+  </Label>
+  <styled.textarea
+    autoComplete="nope"
+    disabled={false}
+    error={false}
+    id="testcomment"
+    name={null}
+    rows={10}
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Textarea /> should render Textarea correctly with a label 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="testcomment"
+    required={false}
+  >
+    Comment
+  </Label>
+  <styled.textarea
+    autoComplete="nope"
+    disabled={false}
+    error={false}
+    id="testcomment"
+    name={null}
+    rows={5}
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Textarea /> should render Textarea correctly with a label and an error 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={true}
+    htmlFor="testcomment"
+    required={false}
+  >
+    Comment
+  </Label>
+  <styled.textarea
+    autoComplete="nope"
+    disabled={false}
+    error={true}
+    id="testcomment"
+    name={null}
+    rows={5}
+  />
+  <InputFeedback
+    className={null}
+    error="New error"
+  />
+</div>
+`;
+
+exports[`Test <Textarea /> should render Textarea correctly with a label and required flag 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="testcomment"
+    required={true}
+  >
+    Comment
+  </Label>
+  <styled.textarea
+    autoComplete="nope"
+    disabled={false}
+    error={false}
+    id="testcomment"
+    name={null}
+    rows={5}
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Textarea /> should render Textarea correctly with only required props 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="testcomment"
+    required={false}
+  />
+  <styled.textarea
+    autoComplete="nope"
+    disabled={false}
+    error={false}
+    id="testcomment"
+    name={null}
+    rows={5}
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;

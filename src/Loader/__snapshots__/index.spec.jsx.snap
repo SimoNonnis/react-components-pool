@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Select /> should render Loader correctly with custom props 1`] = `
+<styled.div
+  background="pink"
+  className={null}
+  height="150px"
+  id="loader"
+  opacity="0.2"
+  width="150px"
+>
+  <styled.div>
+    <Spinner
+      className={null}
+      fill="red"
+      height={20}
+      width={20}
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Test <Select /> should render Loader correctly with default props 1`] = `
+<styled.div
+  background="#ffffff"
+  className={null}
+  height="100%"
+  id="loader"
+  opacity="0.7"
+  width="100%"
+>
+  <styled.div>
+    <Spinner
+      className={null}
+      fill="#0099cf"
+      height={40}
+      width={40}
+    />
+  </styled.div>
+</styled.div>
+`;

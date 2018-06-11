@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ArrowRight /> icon should render ArrowRight icon correctly with default props 1`] = `
+<svg
+  className="arrowRightIcon"
+  height={40}
+  viewBox="0 0 20 20"
+  width={40}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    ArrowRight Icon
+  </title>
+  <path
+    className="arrowRightIconPath"
+    d="M5.48,18.48a.5.5,0,0,1-.33-.88L13.77,10,5.15,2.4a.5.5,0,1,1,.66-.75l9,8a.5.5,0,0,1,0,.75l-9,8A.5.5,0,0,1,5.48,18.48Z"
+    fill="currentColor"
+  />
+</svg>
+`;
+
+exports[`Test <ArrowRight /> icon should render ArrowRight icon correctly with props 1`] = `
+<svg
+  className="testClassname"
+  height={30}
+  viewBox="0 0 20 20"
+  width={30}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    ArrowRight Icon
+  </title>
+  <path
+    className="arrowRightIconPath"
+    d="M5.48,18.48a.5.5,0,0,1-.33-.88L13.77,10,5.15,2.4a.5.5,0,1,1,.66-.75l9,8a.5.5,0,0,1,0,.75l-9,8A.5.5,0,0,1,5.48,18.48Z"
+    fill="#a4a1a1"
+  />
+</svg>
+`;

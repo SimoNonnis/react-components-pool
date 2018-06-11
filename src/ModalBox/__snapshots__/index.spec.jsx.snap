@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ModalBox /> should render Modal correctly with isOpen prop set to true 1`] = `
+<StyledModal
+  className=""
+  contentLabel="Demo Intro"
+  isOpen={true}
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "overlay": Object {
+        "zIndex": "99999",
+      },
+    }
+  }
+  tall={false}
+>
+  <Container
+    className=""
+  >
+    <ModalClose
+      onClick={[Function]}
+    />
+    children
+  </Container>
+</StyledModal>
+`;
+
+exports[`Test <ModalBox /> should render Modal correctly with required props 1`] = `
+<StyledModal
+  className=""
+  contentLabel="Demo Intro"
+  isOpen={false}
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "overlay": Object {
+        "zIndex": "99999",
+      },
+    }
+  }
+  tall={false}
+>
+  <Container
+    className=""
+  >
+    <ModalClose
+      onClick={[Function]}
+    />
+    children
+  </Container>
+</StyledModal>
+`;
+
+exports[`Test <ModalBox /> should render Modal passing noX boolean prop 1`] = `
+<StyledModal
+  className=""
+  contentLabel="Demo Intro"
+  isOpen={false}
+  noX={true}
+  onRequestClose={[MockFunction]}
+  style={
+    Object {
+      "overlay": Object {
+        "zIndex": "99999",
+      },
+    }
+  }
+  tall={false}
+>
+  <Container
+    className=""
+  >
+    <ModalClose
+      onClick={[MockFunction]}
+    />
+    children
+  </Container>
+</StyledModal>
+`;
+
+exports[`Test <ModalBox /> should render Modal passing onClose prop 1`] = `
+<StyledModal
+  className=""
+  contentLabel="Demo Intro"
+  isOpen={false}
+  onRequestClose={[MockFunction]}
+  style={
+    Object {
+      "overlay": Object {
+        "zIndex": "99999",
+      },
+    }
+  }
+  tall={false}
+>
+  <Container
+    className=""
+  >
+    <ModalClose
+      onClick={[MockFunction]}
+    />
+    children
+  </Container>
+</StyledModal>
+`;
+
+exports[`Test <ModalBox /> should render Modal passing tall boolean prop 1`] = `
+<StyledModal
+  className=""
+  contentLabel="Demo Intro"
+  isOpen={false}
+  onRequestClose={[MockFunction]}
+  style={
+    Object {
+      "overlay": Object {
+        "zIndex": "99999",
+      },
+    }
+  }
+  tall={true}
+>
+  <Container
+    className=""
+  >
+    <ModalClose
+      onClick={[MockFunction]}
+    />
+    children
+  </Container>
+</StyledModal>
+`;

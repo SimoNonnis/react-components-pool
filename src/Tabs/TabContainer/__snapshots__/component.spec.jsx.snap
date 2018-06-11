@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TabContainer /> should find 2 <button /> with class .tab 1`] = `
+<div>
+  <Styled(Flex)
+    alignItems="center"
+    justifyContent="space-between"
+  >
+    <styled.button
+      isActive={true}
+      key="1"
+      onClick={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div>
+        Type & Price
+      </div>
+    </styled.button>
+    <styled.button
+      isActive={false}
+      key="2"
+      onClick={[Function]}
+      tabIndex={1}
+      type="button"
+    >
+      <div>
+        Size & Room
+      </div>
+    </styled.button>
+  </Styled(Flex)>
+  <TabContent
+    initialTabIndex={0}
+    key=".0"
+    label={
+      <div>
+        Type & Price
+      </div>
+    }
+  >
+    The 1st tab content is here
+  </TabContent>
+  <TabNavigation
+    currentIndex={0}
+    maxIndex={1}
+    onChange={[Function]}
+  />
+</div>
+`;
+
+exports[`Test <TabContainer /> should find a class .activeTab on last Tab if clicked 1`] = `
+<div>
+  <Styled(Flex)
+    alignItems="center"
+    justifyContent="space-between"
+  >
+    <styled.button
+      isActive={false}
+      key="9"
+      onClick={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <div>
+        Type & Price
+      </div>
+    </styled.button>
+    <styled.button
+      isActive={true}
+      key="10"
+      onClick={[Function]}
+      tabIndex={1}
+      type="button"
+    >
+      <div>
+        Size & Room
+      </div>
+    </styled.button>
+  </Styled(Flex)>
+  <TabContent
+    key=".1"
+    label={
+      <div>
+        Size & Room
+      </div>
+    }
+  >
+    The 2nd tab content is here
+  </TabContent>
+  <TabNavigation
+    currentIndex={1}
+    maxIndex={1}
+    onChange={[Function]}
+  />
+</div>
+`;

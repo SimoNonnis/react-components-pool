@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Label /> should render Label correctly with custom props 1`] = `
+<LabelStyled
+  className="className"
+  disabled={false}
+  error={true}
+  htmlFor="id"
+>
+  Label Name
+  <Asterisk>
+    *
+  </Asterisk>
+</LabelStyled>
+`;
+
+exports[`Test <Label /> should render Label correctly with custom props 2`] = `
+<LabelStyled
+  className="className"
+  disabled={true}
+  error={true}
+  htmlFor="id"
+>
+  Label Name
+</LabelStyled>
+`;
+
+exports[`Test <Label /> should render Label correctly with default props 1`] = `""`;

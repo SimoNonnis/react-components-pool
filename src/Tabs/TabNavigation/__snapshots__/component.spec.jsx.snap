@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TabNavigation /> should check if next button is disabled when last tab is showing 1`] = `
+<styled.div>
+  <Styled(Button)
+    onClick={[Function]}
+    type="button"
+    value={-1}
+  >
+    <styled.span>
+      <ArrowLeft
+        className="arrowLeftIcon"
+        classNamePath="arrowLeftIconPath"
+        fill="currentColor"
+        height={20}
+        width={20}
+      />
+    </styled.span>
+    <styled.span>
+      Previous
+    </styled.span>
+  </Styled(Button)>
+</styled.div>
+`;
+
+exports[`Test <TabNavigation /> should check if prev button is enabled after clicking on the next button 1`] = `
+<styled.div>
+  <Styled(Button)
+    onClick={[Function]}
+    type="button"
+    value={-1}
+  >
+    <styled.span>
+      <ArrowLeft
+        className="arrowLeftIcon"
+        classNamePath="arrowLeftIconPath"
+        fill="currentColor"
+        height={20}
+        width={20}
+      />
+    </styled.span>
+    <styled.span>
+      Previous
+    </styled.span>
+  </Styled(Button)>
+  <Styled(Button)
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+    value={1}
+  >
+    <styled.span>
+      Next
+    </styled.span>
+    <styled.span>
+      <ArrowRight
+        className="arrowRightIcon"
+        classNamePath="arrowRightIconPath"
+        fill="currentColor"
+        height={20}
+        width={20}
+      />
+    </styled.span>
+  </Styled(Button)>
+</styled.div>
+`;
+
+exports[`Test <TabNavigation /> should find <TabNavigation /> component 1`] = `
+<styled.div>
+  <Styled(Button)
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+    value={1}
+  >
+    <styled.span>
+      Next
+    </styled.span>
+    <styled.span>
+      <ArrowRight
+        className="arrowRightIcon"
+        classNamePath="arrowRightIconPath"
+        fill="currentColor"
+        height={20}
+        width={20}
+      />
+    </styled.span>
+  </Styled(Button)>
+</styled.div>
+`;
+
+exports[`Test <TabNavigation /> should render 1 button on initial mount 1`] = `
+<styled.div>
+  <Styled(Button)
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+    value={1}
+  >
+    <styled.span>
+      Next
+    </styled.span>
+    <styled.span>
+      <ArrowRight
+        className="arrowRightIcon"
+        classNamePath="arrowRightIconPath"
+        fill="currentColor"
+        height={20}
+        width={20}
+      />
+    </styled.span>
+  </Styled(Button)>
+</styled.div>
+`;
+
+exports[`Test <TabNavigation /> should render 1 button on the last tab 1`] = `
+<styled.div>
+  <Styled(Button)
+    onClick={[Function]}
+    type="button"
+    value={-1}
+  >
+    <styled.span>
+      <ArrowLeft
+        className="arrowLeftIcon"
+        classNamePath="arrowLeftIconPath"
+        fill="currentColor"
+        height={20}
+        width={20}
+      />
+    </styled.span>
+    <styled.span>
+      Previous
+    </styled.span>
+  </Styled(Button)>
+</styled.div>
+`;
+
+exports[`Test <TabNavigation /> should render multiple buttons when not on the beginning or end tab 1`] = `
+<styled.div>
+  <Styled(Button)
+    onClick={[Function]}
+    type="button"
+    value={-1}
+  >
+    <styled.span>
+      <ArrowLeft
+        className="arrowLeftIcon"
+        classNamePath="arrowLeftIconPath"
+        fill="currentColor"
+        height={20}
+        width={20}
+      />
+    </styled.span>
+    <styled.span>
+      Previous
+    </styled.span>
+  </Styled(Button)>
+  <Styled(Button)
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+    value={1}
+  >
+    <styled.span>
+      Next
+    </styled.span>
+    <styled.span>
+      <ArrowRight
+        className="arrowRightIcon"
+        classNamePath="arrowRightIconPath"
+        fill="currentColor"
+        height={20}
+        width={20}
+      />
+    </styled.span>
+  </Styled(Button)>
+</styled.div>
+`;

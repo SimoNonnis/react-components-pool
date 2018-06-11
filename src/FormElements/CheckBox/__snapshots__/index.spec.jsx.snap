@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <CheckBox /> should render CheckBox correctly component with label as a function 1`] = `
+<Container
+  className={null}
+>
+  <Check
+    checked={false}
+    disabled={false}
+    id="yes"
+    name="choice"
+    type="checkbox"
+  />
+  <Label
+    disabled={false}
+    error={false}
+    htmlFor="yes"
+  >
+    <span>
+      Label component
+    </span>
+  </Label>
+</Container>
+`;
+
+exports[`Test <CheckBox /> should render CheckBox correctly component with label as a styled component 1`] = `
+<Container
+  className={null}
+>
+  <Check
+    checked={false}
+    disabled={false}
+    id="yes"
+    name="choice"
+    type="checkbox"
+  />
+  <Label
+    disabled={false}
+    error={false}
+    htmlFor="yes"
+  >
+    <styled.div>
+      Label
+    </styled.div>
+  </Label>
+</Container>
+`;
+
+exports[`Test <CheckBox /> should render CheckBox correctly if checked true 1`] = `
+<Container
+  className={null}
+>
+  <Check
+    checked={true}
+    disabled={false}
+    id="yes"
+    name="choice"
+    type="checkbox"
+  />
+  <Label
+    disabled={false}
+    error={false}
+    htmlFor="yes"
+  >
+    Yes
+  </Label>
+</Container>
+`;
+
+exports[`Test <CheckBox /> should render CheckBox correctly with a label as a string 1`] = `
+<Container
+  className={null}
+>
+  <Check
+    checked={false}
+    disabled={false}
+    id="yes"
+    name="choice"
+    type="checkbox"
+  />
+  <Label
+    disabled={false}
+    error={false}
+    htmlFor="yes"
+  >
+    Label
+  </Label>
+</Container>
+`;
+
+exports[`Test <CheckBox /> should render CheckBox correctly with only required props 1`] = `
+<Container
+  className={null}
+>
+  <Check
+    checked={false}
+    disabled={false}
+    id="yes"
+    name="choice"
+    type="checkbox"
+  />
+  <Label
+    disabled={false}
+    error={false}
+    htmlFor="yes"
+  >
+    Yes
+  </Label>
+</Container>
+`;

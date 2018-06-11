@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <InputStyled /> should render InputStyled with theme props 1`] = `
+.c0 {
+  box-shadow: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: inherit;
+  height: auto;
+  line-height: 24px;
+  margin: 0;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #a6adb4;
+  color: #1D3141;
+  caret-color: #1D3141;
+  padding: 12px 15px;
+}
+
+.c0:focus {
+  outline: none;
+  border-color: #0099cf;
+}
+
+.c0:focus {
+  border-color: #0099cf;
+}
+
+.c0::-webkit-datetime-edit-year-field,
+.c0::-webkit-datetime-edit-day-field,
+.c0::-webkit-datetime-edit-month-field {
+  color: #1D3141;
+  font-weight: inherit;
+}
+
+<input
+  className="c0"
+/>
+`;
+
+exports[`Test <InputStyled /> should render InputStyled with theme props and error 1`] = `
+.c0 {
+  box-shadow: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: inherit;
+  height: auto;
+  line-height: 24px;
+  margin: 0;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #a6adb4;
+  color: #1D3141;
+  caret-color: #1D3141;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #f80000;
+  padding: 12px 15px;
+}
+
+.c0:focus {
+  outline: none;
+  border-color: #0099cf;
+}
+
+.c0:focus {
+  border-color: #0099cf;
+}
+
+.c0::-webkit-datetime-edit-year-field,
+.c0::-webkit-datetime-edit-day-field,
+.c0::-webkit-datetime-edit-month-field {
+  color: #1D3141;
+  font-weight: inherit;
+}
+
+.c0:focus {
+  border-color: #f80000;
+}
+
+<input
+  className="c0"
+/>
+`;
+
+exports[`Test <SelectStyled /> should render SelectStyled with theme props 1`] = `
+.c0 {
+  box-shadow: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: inherit;
+  height: auto;
+  line-height: 24px;
+  margin: 0;
+  width: 100%;
+  color: #1D3141;
+  padding: 13px 50px 13px 15px;
+  -ms-appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-image: none !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.c0:focus {
+  outline: none;
+  border-color: #0099cf;
+}
+
+<select
+  className="c0"
+/>
+`;
+
+exports[`Test <SelectWrap /> should render SelectWrap with error props 1`] = `
+.c0 {
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #a6adb4;
+  color: #1D3141;
+  caret-color: #1D3141;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #f80000;
+  position: relative;
+}
+
+.c0:focus {
+  border-color: #0099cf;
+}
+
+.c0::-webkit-datetime-edit-year-field,
+.c0::-webkit-datetime-edit-day-field,
+.c0::-webkit-datetime-edit-month-field {
+  color: #1D3141;
+  font-weight: inherit;
+}
+
+.c0:focus {
+  border-color: #f80000;
+}
+
+.c0:after {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #1D3141;
+  content: '';
+  height: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);
+  transition: all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);
+  width: 0;
+  z-index: 2;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Test <SelectWrap /> should render SelectWrap with theme props 1`] = `
+.c0 {
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #a6adb4;
+  color: #1D3141;
+  caret-color: #1D3141;
+  position: relative;
+}
+
+.c0:focus {
+  border-color: #0099cf;
+}
+
+.c0::-webkit-datetime-edit-year-field,
+.c0::-webkit-datetime-edit-day-field,
+.c0::-webkit-datetime-edit-month-field {
+  color: #1D3141;
+  font-weight: inherit;
+}
+
+.c0:after {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #1D3141;
+  content: '';
+  height: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);
+  transition: all 0.2s cubic-bezier(0.25,0.46,0.45,0.94);
+  width: 0;
+  z-index: 2;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Test <TextareaStyled /> should render TextareaStyled disabled 1`] = `
+.c0 {
+  box-shadow: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: inherit;
+  height: auto;
+  line-height: 24px;
+  margin: 0;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #a6adb4;
+  color: #1D3141;
+  caret-color: #1D3141;
+  color: #e6e6e6;
+  border-color: #e6e6e6;
+  caret-color: #e6e6e6;
+  padding: 15px;
+  resize: none;
+}
+
+.c0:focus {
+  outline: none;
+  border-color: #0099cf;
+}
+
+.c0:focus {
+  border-color: #0099cf;
+}
+
+.c0::-webkit-datetime-edit-year-field,
+.c0::-webkit-datetime-edit-day-field,
+.c0::-webkit-datetime-edit-month-field {
+  color: #1D3141;
+  font-weight: inherit;
+}
+
+.c0:focus {
+  border-color: #e6e6e6;
+}
+
+.c0::-webkit-datetime-edit-year-field,
+.c0::-webkit-datetime-edit-day-field,
+.c0::-webkit-datetime-edit-month-field {
+  color: #e6e6e6;
+  font-weight: inherit;
+}
+
+<textarea
+  className="c0"
+  disabled={true}
+/>
+`;
+
+exports[`Test <TextareaStyled /> should render TextareaStyled with theme props 1`] = `
+.c0 {
+  box-shadow: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: inherit;
+  height: auto;
+  line-height: 24px;
+  margin: 0;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #a6adb4;
+  color: #1D3141;
+  caret-color: #1D3141;
+  padding: 15px;
+  resize: vertical;
+}
+
+.c0:focus {
+  outline: none;
+  border-color: #0099cf;
+}
+
+.c0:focus {
+  border-color: #0099cf;
+}
+
+.c0::-webkit-datetime-edit-year-field,
+.c0::-webkit-datetime-edit-day-field,
+.c0::-webkit-datetime-edit-month-field {
+  color: #1D3141;
+  font-weight: inherit;
+}
+
+<textarea
+  className="c0"
+/>
+`;
+
+exports[`Test <TextareaStyled /> should render TextareaStyled with theme props and error 1`] = `
+.c0 {
+  box-shadow: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: inherit;
+  height: auto;
+  line-height: 24px;
+  margin: 0;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #a6adb4;
+  color: #1D3141;
+  caret-color: #1D3141;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #f80000;
+  padding: 15px;
+  resize: vertical;
+}
+
+.c0:focus {
+  outline: none;
+  border-color: #0099cf;
+}
+
+.c0:focus {
+  border-color: #0099cf;
+}
+
+.c0::-webkit-datetime-edit-year-field,
+.c0::-webkit-datetime-edit-day-field,
+.c0::-webkit-datetime-edit-month-field {
+  color: #1D3141;
+  font-weight: inherit;
+}
+
+.c0:focus {
+  border-color: #f80000;
+}
+
+<textarea
+  className="c0"
+/>
+`;

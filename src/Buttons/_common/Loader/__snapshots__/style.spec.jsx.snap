@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <SpinnerStyled /> should render SpinnerStyled with empty size props 1`] = `
+.c0 {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -3px;
+}
+
+<Spinner
+  className="c0"
+  fill="currentColor"
+  height={40}
+  size=""
+  width={40}
+/>
+`;
+
+exports[`Test <SpinnerStyled /> should render SpinnerStyled with large size props 1`] = `
+.c0 {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -3px;
+  top: -5px;
+}
+
+<Spinner
+  className="c0"
+  fill="currentColor"
+  height={40}
+  size="large"
+  width={40}
+/>
+`;
+
+exports[`Test <SpinnerStyled /> should render SpinnerStyled with small size props 1`] = `
+.c0 {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -3px;
+  top: 0;
+}
+
+<Spinner
+  className="c0"
+  fill="currentColor"
+  height={40}
+  size="small"
+  width={40}
+/>
+`;

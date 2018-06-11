@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Cross /> icon should render Cross icon correctly with default props 1`] = `
+<svg
+  className="chainIcon"
+  height={32}
+  viewBox="0 0 24 24"
+  width={32}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Cross Icon
+  </title>
+  <polygon
+    className="chainIconPath"
+    fill="#fff"
+    points="19.04 6.38 17.62 4.96 12 10.59 6.38 4.96 4.96 6.38 10.59 12 4.96 17.62 6.38 19.04 12 13.41 17.62 19.04 19.04 17.62 13.41 12 19.04 6.38"
+  />
+</svg>
+`;
+
+exports[`Test <Cross /> icon should render Cross icon correctly with props 1`] = `
+<svg
+  className="pof"
+  height={30}
+  viewBox="0 0 24 24"
+  width={30}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Cross Icon
+  </title>
+  <polygon
+    className="chainIconPath"
+    fill="#a4a1a1"
+    points="19.04 6.38 17.62 4.96 12 10.59 6.38 4.96 4.96 6.38 10.59 12 4.96 17.62 6.38 19.04 12 13.41 17.62 19.04 19.04 17.62 13.41 12 19.04 6.38"
+  />
+</svg>
+`;

@@ -1,0 +1,4 @@
+HouseChain example:
+```js
+<HouseChain />
+```

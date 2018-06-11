@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Input /> should render Input correctly with HTML as label 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={false}
+  >
+    <span>
+      First name 
+      <span>
+        (must be full legal name)
+      </span>
+    </span>
+  </Label>
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={false}
+    id="one"
+    type="text"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with a function as label 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={false}
+  >
+    <span>
+      First name 
+      <span>
+        (must be full legal name)
+      </span>
+    </span>
+  </Label>
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={false}
+    id="one"
+    type="text"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with a label 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={false}
+  >
+    First Name
+  </Label>
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={false}
+    id="one"
+    type="text"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with a label and an error 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={true}
+    htmlFor="one"
+    required={false}
+  >
+    First Name
+  </Label>
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={true}
+    id="one"
+    type="text"
+  />
+  <InputFeedback
+    className={null}
+    error="New error"
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with a label and required flag 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={true}
+  >
+    First Name
+  </Label>
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={false}
+    id="one"
+    type="text"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with a styled component as label 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={false}
+  >
+    <styled.span>
+      First name 
+      <styled.span>
+        (must be full legal name)
+      </styled.span>
+    </styled.span>
+  </Label>
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={false}
+    id="one"
+    type="text"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with autoFocus 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={false}
+  />
+  <styled.input
+    autoComplete="nope"
+    autoFocus={true}
+    disabled={false}
+    error={false}
+    id="one"
+    type="text"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with only required props 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={false}
+  />
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={false}
+    id="one"
+    type="text"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with type: date 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={false}
+  >
+    Start date
+  </Label>
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={false}
+    id="one"
+    pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+    type="date"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with type: email 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={true}
+  >
+    Email
+  </Label>
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={false}
+    id="one"
+    type="email"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;
+
+exports[`Test <Input /> should render Input correctly with type: password 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="one"
+    required={false}
+  >
+    Password
+  </Label>
+  <styled.input
+    autoComplete="nope"
+    autoFocus={false}
+    disabled={false}
+    error={false}
+    id="one"
+    type="password"
+  />
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;

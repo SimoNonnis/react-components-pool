@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Select /> should render Select correctly with custom props 1`] = `
+<div
+  className="className"
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={true}
+    htmlFor="id"
+    required={true}
+  >
+    Label test
+  </Label>
+  <styled.div
+    disabled={false}
+    error={true}
+  >
+    <styled.select
+      autoComplete="nope"
+      disabled={false}
+      id="id"
+      name="name"
+      value="option-1"
+    >
+      <option
+        disabled={true}
+        value=""
+      >
+        test-placeHoldre
+      </option>
+      <option
+        key="option-1"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        key="option-2"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        key="option-3"
+        value="option-3"
+      >
+        Option 3
+      </option>
+      <option
+        key="option-4"
+        value="option-4"
+      >
+        Option 4
+      </option>
+    </styled.select>
+  </styled.div>
+  <InputFeedback
+    className={null}
+    error="Error message"
+  />
+</div>
+`;
+
+exports[`Test <Select /> should render Select correctly with required props 1`] = `
+<div
+  className={null}
+>
+  <Label
+    className={null}
+    disabled={false}
+    error={false}
+    htmlFor="id"
+    required={false}
+  />
+  <styled.div
+    disabled={false}
+    error={false}
+  >
+    <styled.select
+      autoComplete="nope"
+      disabled={false}
+      id="id"
+      name={null}
+      value=""
+    >
+      <option
+        disabled={true}
+        value=""
+      >
+        - Select -
+      </option>
+      <option
+        key="option-1"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        key="option-2"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        key="option-3"
+        value="option-3"
+      >
+        Option 3
+      </option>
+      <option
+        key="option-4"
+        value="option-4"
+      >
+        Option 4
+      </option>
+    </styled.select>
+  </styled.div>
+  <InputFeedback
+    className={null}
+    error={null}
+  />
+</div>
+`;

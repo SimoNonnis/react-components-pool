@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <CloseModal /> should render CloseModal correctly 1`] = `
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #1D3141;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 43px;
+  font-weight: 300;
+  line-height: 25px;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+.c0:active {
+  outline: none;
+}
+
+@media (min-width:1050px) {
+  .c0 {
+    right: 3px;
+    top: 3px;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Indicator /> should render Indicator but will not be visible 1`] = `
+<Circle
+  status={null}
+/>
+`;
+
+exports[`Test <Indicator /> should render Indicator with a green circle if status prop is "ready" 1`] = `
+<Circle
+  status="ready"
+/>
+`;
+
+exports[`Test <Indicator /> should render Indicator with a orange circle if status prop is "awaiting" 1`] = `
+<Circle
+  status="awaiting"
+/>
+`;

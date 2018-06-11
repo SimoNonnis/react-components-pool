@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Asterisk /> should render Asterisk 1`] = `
+.c0 {
+  color: #f80000;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Test <Asterisk /> should render Asterisk if disabled 1`] = `
+.c0 {
+  color: #e6e6e6;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+<span
+  className="c0"
+  disabled={true}
+/>
+`;
+
+exports[`Test <LabelStyled /> should render LabelStyled with disabled props 1`] = `
+.c0 {
+  color: #1D3141;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #e6e6e6;
+  margin-bottom: 7px;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+<label
+  className="c0"
+  disabled={true}
+/>
+`;
+
+exports[`Test <LabelStyled /> should render LabelStyled with error props 1`] = `
+.c0 {
+  color: #1D3141;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #f80000;
+  margin-bottom: 7px;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+<label
+  className="c0"
+/>
+`;
+
+exports[`Test <LabelStyled /> should render LabelStyled with theme props 1`] = `
+.c0 {
+  color: #1D3141;
+  font-family: "proxima-nova","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 7px;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+<label
+  className="c0"
+/>
+`;

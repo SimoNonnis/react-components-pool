@@ -1,0 +1,4 @@
+SearchIcon example:
+```js
+<SearchIcon />
+```

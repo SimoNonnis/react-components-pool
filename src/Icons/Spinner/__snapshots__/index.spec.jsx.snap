@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Spinner /> icon should render Spinner icon correctly with default props 1`] = `
+<styled.svg
+  className={null}
+  height={40}
+  viewBox="0 0 50 50"
+  width={40}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Spinner Icon
+  </title>
+  <styled.circle
+    className=""
+    cx="25"
+    cy="25"
+    r="20"
+    stroke="currentColor"
+  />
+</styled.svg>
+`;
+
+exports[`Test <Spinner /> icon should render Spinner icon correctly with props 1`] = `
+<styled.svg
+  className={null}
+  height={30}
+  viewBox="0 0 50 50"
+  width={30}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Spinner Icon
+  </title>
+  <styled.circle
+    className=""
+    cx="25"
+    cy="25"
+    r="20"
+    stroke="#a4a1a1"
+  />
+</styled.svg>
+`;

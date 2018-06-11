@@ -1,0 +1,3 @@
+```jsx
+<Hamburger fill='blue' />
+```
